@@ -1,0 +1,20 @@
+:root {
+  --bg-clr:rgba(0, 0, 0, .9);
+  --brn-clr:whitesmoke;
+  --bs-wnd-bg:#f5f5f5;
+}
+
+.container {
+  margin:2rem auto;
+  width: 80%;
+}
+
+.text-center {
+  text-align:center;
+}
+
+.component {
+  /* border:1px solid var(--brn-clr); */
+  margin:1rem 0;
+  
+}

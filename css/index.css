@@ -1,0 +1,12 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.pseudo-app {
+  position: relative;
+  width:60%;
+  height:auto;
+  border:1px solid #000;
+  margin: 10% auto;
+  background: var(--bg-clr);
+  color:var(--brn-clr);
+}
