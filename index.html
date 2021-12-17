@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pseudo App</title>
+  
+  <link rel="stylesheet" href="css/plugins/normalize.css" />
+  <link rel="stylesheet" href="css/generals.css" />
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="css/pseudo-window.css" />
+  
+</head>
+<body>
+  <div class="root">
+    <div class="pseudo-app">
+      <div class="container">
+        <!-- Pseudo Controls  -->
+        <section class="pseudo-controls component">
+          <h3 class="text-center"> pseudo app</h3>
+          <select name="" id="pseudos-container">
+            <option value="none">There are no psudo code... </option>
+          </select>
+          <!-- Save -->
+          <div class="save-new-pseudo">
+            <button>Save</button>
+          </div>
+          <!-- Keyword -->
+          <div class="save-new-pseudo">
+            <button>Keyword</button>
+          </div>
+        </section>
+        <!-- ---------------------------- -->
+        <!-- Pseudo Window -->
+        <section class="pseudo-window component">
+          <div class="container">
+            <p>
+              pseudo code window
+            </p>
+            <div class="pseudo-code-content">
+              <ol id="pseudoCodeList"></ol>
+            </div>
+            <div class="write-pseudo">
+              <span class="pseudo-input-notation"></span>
+              <input type="text" name="" placeholder="what's next?" class="pseudo-code-inp" id="pseudoCodeInput">
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  
+  
+  <script src="js/general.js"></script>
+  <script src="js/index.js"></script>
+  
+  <!-- Components -->
+  <!-- Pseudo Window -->
+  <script src="js/components/pseudo-window/interfaces.js"></script>
+  <script src="js/components/pseudo-window/helpers.js"></script>
+  <script src="js/components/pseudo-window/index.js"></script>
+  <script src="js/components/pseudo-window/listeners.js"></script>
+  
+  
+</body>
+</html>
